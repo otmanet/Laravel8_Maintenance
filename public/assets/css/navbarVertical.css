@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100;300;400;500;600;700;800&display=swap');
+.navbar-vertical {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #FFFF;
+  height:100%;
+
+}
+
+.navbar-vertical li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+  background-color: #dddddd;
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 28px;
+}
+
+/* Change the link color on hover */
+ .navbar-vertical li a:hover {
+  background-color: #555;
+  color: white;
+}
+@media (max-width: 480px){
+    /* ... */
+    .navbar-vertical{width:200px}
+    .navbar-vertical{width:200px}
+}
+@media (max-width: 1024px){
+    /* ... */
+    .navbar-vertical{width:300px}
+    .navbar-vertical{width:300px}
+}
+@media (max-width: 768px){
+    /* ... */
+    .navbar-vertical{width:200px}
+    .navbar-vertical{width:200px}
+}
+ /* .navbar-vertical {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    height:573px;
+    background-color: #dddddd;
+    width:150px;
+  }
+
+
+.navbar-vertical a {
+     display: block;
+
+    margin-left:3px ;
+    background-color: #dddddd;
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 28px;
+} */
+.navbar-vertical a:hover{
+    font-size: 35px;
+}
+.navbar-vertical a:hover p{
+color:  rgb(52, 209, 52);
+
+}

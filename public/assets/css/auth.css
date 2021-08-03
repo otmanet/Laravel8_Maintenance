@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100;300;400;500;600;700;800&display=swap');
+body {
+  font-family: 'Montserrat', sans-serif;
+  transition: 3s;
+
+}
+
+.login-container {
+  margin-top: 6%;
+  max-height: 70%;
+  border: 1px solid #CCD1D1;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  max-width: 100%;
+  opacity: 0.8;
+  background-color: #fff;
+}
+
+html, body {
+          width: 100%;
+        height: 100%;
+        }
+.ads {
+  background-color: green;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  color: #fff;
+  padding: 15px;
+  text-align: center;
+}
+.container p{
+    font-size:25px;
+}
+#error{
+    width:500px;
+}
+.form-group input{
+border-radius: 1.5rem;
+width:400px;
+margin-left: 80px;
+}
+@media (max-width: 480px){
+    /* ... */
+    .form-group input{width:200px}
+    .form-group #login{width:200px}
+}
+@media (max-width: 1024px){
+    /* ... */
+    .form-group input{width:300px}
+    .form-group #login{width:300px}
+}
+@media (max-width: 768px){
+    /* ... */
+    .form-group input{width:200px}
+    .form-group #login{width:200px}
+}
+.ads h1 {
+  margin-top: 20%;
+}
+
+#fl {
+  font-weight: 600;
+}
+
+#sl {
+  font-weight: 100 !important;
+}
+
+.profile-img {
+  text-align: center;
+}
+
+.profile-img img {
+  border-radius: 50%;
+  /* animation: mymove 2s infinite; */
+}
+
+@keyframes mymove {
+  from {border: 1px solid #F2F3F4;}
+  to {border: 8px solid #F2F3F4;}
+}
+
+.login-form {
+  padding: 15px;
+}
+
+.login-form h3 {
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.form-control {
+  font-size: 14px;
+}
+
+.forget-password a {
+  font-weight: 500;
+  text-decoration: none;
+  font-size: 14px;
+}
+.form-group .btn {
+    border-radius: 1.5rem;
+    width: 400px;
+margin-left: 80px;
+}
+.navbar a {
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 22px;
+}
+.navbar a:hover{
+    font-size: 25px;
+
+}
+.navbar a:hover p{
+color:  rgb(52, 209, 52);
+}
+.navbar .navbar-brand{
+     font-family: 'Big Shoulders Display', cursive;
+    font-size: 35px;
+    color:   rgb(52, 209, 52);
+}
+.navbar .navbar-brand:hover{
+     font-family: 'Big Shoulders Display', cursive;
+    font-size: 40px;
+    color:   rgb(52, 209, 52);
+}
+.navbar-nav{
+   float: right;
+}
+.form-group a{
+    font-size: 17px;
+}
+.form-check-label{
+    float: right;
+}
+.login-form h3{
+     font-family: 'Big Shoulders Display', cursive;
+    font-size: 35px;
+    color:   rgb(52, 209, 52);
+}
+.dropbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+.image-label .label{
+    cursor: pointer;
+    position: absolute;
+    right:0;
+    left: 0;
+    top: 0;
+    bottom:0;
+    /* margin-left: 240px; */
+    margin-top: 150px;
+    z-index: 10;
+    color: #3e8e41;
+}
+.image-label .label p{
+    font-size: 45px;
+}
+.pagination>li {
+display: inline;
+padding:0px !important;
+margin:0px !important;
+border:none !important;
+}
+.modal-backdrop {
+  z-index: -1 !important;
+}
+/*
+Fix to show in full screen demo
+*/
+iframe
+{
+    height:700px !important;
+}
+
+.btn {
+display: inline-block;
+padding: 6px 12px !important;
+margin-bottom: 0;
+font-size: 14px;
+font-weight: 400;
+line-height: 1.42857143;
+text-align: center;
+white-space: nowrap;
+vertical-align: middle;
+-ms-touch-action: manipulation;
+touch-action: manipulation;
+cursor: pointer;
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+background-image: none;
+border: 1px solid transparent;
+border-radius: 4px;
+}
+
+.btn-primary {
+color: #fff !important;
+background: #428bca !important;
+border-color: #357ebd !important;
+box-shadow:none !important;
+}
+.btn-danger {
+color: #fff !important;
+background: #d9534f !important;
+border-color: #d9534f !important;
+box-shadow:none !important;
+}
